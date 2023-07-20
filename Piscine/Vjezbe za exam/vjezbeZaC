@@ -1,0 +1,48 @@
+/*
+//vjezba za test
+
+1.
+//Write a function that displays the character passed as a parameter
+
+#include <unistd.h>
+
+void	ft_putchar(char c)
+{
+	write(1, &c, 1);
+}
+
+2.
+//Create a function that displays the alphabet in lowercase, on a single line, by
+ascending order, starting from the letter ’a’.
+
+#include <unistd.h>
+
+void tf_print_alphabet(void)
+{
+	char	l;
+	
+	l = 'a'
+	while(l <= 'z')
+	{
+		write(1, &l, 2);
+		l++;
+	}
+}
+
+3.
+//Create a function that displays the alphabet in lowercase, on a single line, by
+descending order, starting from the letter ’z’.
+
+#include <unistd.h>
+
+void ft_print_reverse_alphabet(void)
+{
+	char	h;
+	
+	h = 'z';
+	while(h >= 'a')
+	{
+		write(1, &h, 1);
+		h--;
+	}
+}
